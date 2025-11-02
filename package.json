@@ -11,5 +11,8 @@
     "node.js"
   ],
   "author": "Anatoly Batov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
 }
