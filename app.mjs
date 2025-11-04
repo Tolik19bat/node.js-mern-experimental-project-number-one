@@ -1,7 +1,8 @@
 import chalk from "chalk";
 import { config } from "dotenv";
 
-config();
+// Замените override:false на true, если хотите, чтобы .env перезаписывал системные переменные
+config({ override: true });
 
 if (process.argv.length < 3) {
   console.log(chalk.red("Укажите величину в дюймах"));
